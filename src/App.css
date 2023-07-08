@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,4 +39,20 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+  width: 35rem;
+  height: 35rem;
+  background-color: yellow;
+}
+
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* font-size: 30px; */
+  text-align: center;
 }
