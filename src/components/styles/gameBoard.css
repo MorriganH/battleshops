@@ -1,0 +1,27 @@
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+  width: 35rem;
+  height: 35rem;
+}
+
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* font-size: 30px; */
+  text-align: center;
+  background-color: green;
+}
+
+.grid-item:hover {
+  cursor: pointer;
+}
+
+.hit {
+  background-color: red;
+}
+
+.miss {
+  background-color: grey;
+}
