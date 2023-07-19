@@ -14,7 +14,7 @@ export default function GameBoard() {
 
   const elementsHTML = elements.map(element => (
     <div className="grid-item" onClick={handleClick} key={element} id={element}>
-      {element}
+      {/* {element} */}
     </div>
   ));
 

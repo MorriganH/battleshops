@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 } */
+
+.boardContainer {
+  display: flex;
+}
+
+.topLegend {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  margin-left: 33px;
+}
+
+.sideLegend {
+  display: grid;
+  margin-right: 16px;
+}
