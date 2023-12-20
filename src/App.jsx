@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import GameBoard from "./components/GameBaord";
+import GameBoard from "./components/GameBoard";
 
 export default function App() {
   return (
